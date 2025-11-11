@@ -1,3 +1,4 @@
+-- sorting by salary_in_usd ascending
 SELECT
     *
 FROM
@@ -5,7 +6,7 @@ FROM
 ORDER BY
     salary_in_usd;
 
--- descending order
+-- sorting by salary_in_usd descending
 SELECT
     *
 FROM
@@ -15,7 +16,8 @@ ORDER BY
 
 
 
--- SORT BY SALARY IN USED DESC AND EMPLOYEE _RES ASCENDING
+--- sorting by (salary_in_usd, employee_residence) descending
+-- if the salary is same then it will sort on residence alphabetically
 SELECT
     *
 FROM

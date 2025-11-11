@@ -1,7 +1,20 @@
+desc;
+
+-- select all query	
+-- the default namespace is main and data_jobs table is there
 SELECT
     *
 FROM
     data_jobs;
+
+-- in general good practice to use namespaces to avoid name confusion
+-- and to get better organization of tables
+
+-- use fully qualified name
+SELECT
+	*
+FROM
+	salaries.main.data_jobs;
 
 -- schema namespace
 SELECT
@@ -15,7 +28,7 @@ SELECT
 FROM
     data_jobs.main.data_jobs;
 
---limit clause choosed how many rows to return
+--limit clause to choose how many rows to return
 SELECT
     *
 FROM
@@ -42,12 +55,13 @@ SELECT
 FROM
     data_jobs;
 
--- select all column except those spec in exclude
+-- select all column except those spec in EXCLUDE
 SELECT
     * EXCLUDE (salary, work_year)
 FROM
     data_jobs;
 
+-- getting unique values in a column
 SELECT DISTINCT
     employment_type
 from
