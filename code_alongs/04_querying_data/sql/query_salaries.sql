@@ -1,3 +1,6 @@
+--case insensitive in SQL
+--by convention UPPERCASE for SQL command
+--lowercase for columns
 desc;
 
 -- select all query	
