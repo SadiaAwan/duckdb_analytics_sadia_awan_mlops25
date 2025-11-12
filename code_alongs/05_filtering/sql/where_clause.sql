@@ -3,6 +3,7 @@ SELECT
 FROM
     data_jobs;
 
+-- count nr of rows where salary < 50k
 SELECT
     COUNT(*)
 FROM

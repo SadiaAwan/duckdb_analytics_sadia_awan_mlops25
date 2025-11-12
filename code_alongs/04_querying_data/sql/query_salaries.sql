@@ -65,6 +65,7 @@ FROM
     data_jobs;
 
 -- getting unique values in a column
+--unique -> DISTINCT
 SELECT DISTINCT
     employment_type
 from
