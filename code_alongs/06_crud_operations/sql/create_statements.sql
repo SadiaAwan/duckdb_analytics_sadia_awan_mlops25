@@ -13,8 +13,8 @@ CREATE SEQUENCE IF NOT EXISTS id_duckdb_sequence START 1;
 FROM pg_catalog.pg_sequences;
 
 --creating glossary tables
-CREATE TABLE IF NOT EXISTS database.sq (
-    if INTEGER PRIMARY KEY DEFAULT nextval('id_sql_sequence'),
+CREATE TABLE IF NOT EXISTS database.sql (
+    id INTEGER PRIMARY KEY DEFAULT nextval('id_sql_sequence'),
     word STRING,
     description STRING
 );
