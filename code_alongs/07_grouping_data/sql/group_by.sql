@@ -1,3 +1,11 @@
+SELECT
+    food,
+    SUM(number_of_seraches) AS total_searches
+FROM
+    cleaned_food
+GROUP BY
+    food
+
 -- top 10 most searched food
 SELECT
     food,

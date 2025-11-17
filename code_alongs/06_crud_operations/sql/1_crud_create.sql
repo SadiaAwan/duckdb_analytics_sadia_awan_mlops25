@@ -31,7 +31,6 @@ VALUES
         'immutable works similar list, also store records'
     );
 
-
 INSERT INTO
     database.duckdb (word, description)
 VALUES
@@ -75,5 +74,3 @@ VALUES
         'INFORMATION_SCHEMA',
         'A set of views in DuckDB that provides information about the database metadata such as tables, columns, and data types.'
     );
-
-    

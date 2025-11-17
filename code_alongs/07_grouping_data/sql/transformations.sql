@@ -1,9 +1,8 @@
--- change name of id into food
--- remove google topic column
--- change value into number_of_seraches
--- change week_id into week
+-- change name of id into food = id -> food
+-- remove google topic column = remove googleTopic
+-- change value into number_of_seraches = value-> nr_of_search
+-- change week_id into week = 
 -- extract a year column
-
 CREATE TABLE
     IF NOT EXISTS cleaned_food AS (
         SELECT
