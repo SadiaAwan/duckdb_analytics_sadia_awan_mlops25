@@ -22,3 +22,5 @@ FROM
 	main.food
 WHERE
 	week_id BETWEEN '2004-04' AND '2004-06';
+
+DESC TABLE food;
