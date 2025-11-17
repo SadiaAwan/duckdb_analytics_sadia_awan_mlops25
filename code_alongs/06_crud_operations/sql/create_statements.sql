@@ -12,7 +12,7 @@ SELECT
 FROM
     information_schema.schemata
 where
-    catalog_name = 'glossary'
+    catalog_name = 'glossary';
     --sequences
     CREATE SEQUENCE IF NOT EXISTS id_sql_sequence START 1;
 

@@ -1,2 +1,17 @@
 ALTER TABLE database.duckdb
 ADD COLUMN learnt BOOLEAN DEFAULT FALSE;
+
+ALTER TABLE database.sql
+ADD COLUMN learnt BOOLEAN DEFAULT FALSE;
+
+ALTER TABLE programmering.python
+ADD COLUMN learnt BOOLEAN DEFAULT FALSE;
+
+ALTER TABLE database.duckdb
+RENAME COLUMN if TO id;
+
+ALTER TABLE programmering.python
+RENAME COLUMN if TO id;
+
+ALTER TABLE programmering.python
+ADD COLUMN "KALLE ANKA" BOOLEAN DEFAULT FALSE;
