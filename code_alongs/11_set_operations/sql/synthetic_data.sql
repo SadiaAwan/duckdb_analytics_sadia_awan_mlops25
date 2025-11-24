@@ -1,3 +1,4 @@
+-- creating synthetic data and populating tables 
 CREATE SCHEMA IF NOT EXISTS synthetic;
 
 CREATE TABLE IF NOT EXISTS synthetic.sales_jan(
